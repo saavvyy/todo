@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #131313;
+    --secondary: #f9f9f9;
+    --neutral: #fd520e;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    font-family: "Satoshi";
+}
