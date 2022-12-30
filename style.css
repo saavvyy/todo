@@ -1,17 +1,54 @@
+:root {
+  --primary: #a40e4c;
+  --business: #27187e;
+  --personal: #9a031e;
+  --light: #eee;
+  --grey: #888;
+  --dark: #0d0d1b;
+  --danger: #ff002f;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --business-glow: 0px 0px 4px rgba(39, 24, 126, 0.75);
+  --personal-glow: 0px 0px 4px rgba(154, 3, 30, 0.75);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary: #131313;
-    --secondary: #f9f9f9;
-    --neutral: #fd520e;
-    --white: #ffffff;
-    --black: #000000;
-}
-
-body {
     font-family: "Satoshi";
-}
+  }
+
+  input:not([type="radio"]):not([type="checkbox"]), button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+  }
+
+  body {
+    background: var(--light);
+    color: var(--dark);
+  }
+
+  section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  h3 {
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    color: var(--grey);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
